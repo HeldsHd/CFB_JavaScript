@@ -1,0 +1,25 @@
+const VALOR_PADÂO = 0
+
+function add(v){
+  valor+=v
+}
+
+let valor = 0
+console.log(valor)
+
+add(10) //10
+console.log(valor)
+
+add(5) //15
+console.log(valor)
+
+
+function soma(n1=VALOR_PADÂO, n2=VALOR_PADÂO){
+    let res
+    res= n1+n2
+    return res
+}
+
+let resultado_soma=soma(5,5)
+// console.log(resultado_soma)
+
