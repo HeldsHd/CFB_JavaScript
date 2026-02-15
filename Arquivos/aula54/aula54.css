@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#caixa {
+    background-color: rgb(233, 226, 226);
+    border: 5px solid black;
+    border-radius: 30px;
+    text-align: center;
+    width: 400px;
+    height: auto;
+    font-size: 30px;
+}
